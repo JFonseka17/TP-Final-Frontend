@@ -17,9 +17,21 @@
 
 .ac {
     width: 67%;
+    background-image: url('../public/FondoTP.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    
+    overflow: hidden;
+    overflow-y: scroll;
+    
 }
 
-.ac img {
+/* .ac img {
     width: 100%;
     height: 100%;
-}
+    background-image: url('../public/fondo_espejado.jpg;
+    
+} */

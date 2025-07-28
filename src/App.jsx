@@ -17,6 +17,7 @@ const Layout = () => {
 			{/* Columna 2: Área dinámica (aquí entra ChatScreen) */}
 			<div className="ac">
 				<Outlet /> {/* Esto se reemplazará por la ruta hija */}
+				<img src='../public/fondo_espejado.jpg' alt="" />
 			</div>
 		</div>
 	);
