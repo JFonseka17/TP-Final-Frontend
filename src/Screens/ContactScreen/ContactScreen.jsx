@@ -9,9 +9,7 @@ const ContactScreen = () => {
     
     return (
         <div  className="backgroundContact" >
-            <h1>Contact List</h1>
             <ContactList contacts={contactsState} />
-            
         </div>
     );
 };
