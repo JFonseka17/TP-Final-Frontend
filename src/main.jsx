@@ -1,11 +1,8 @@
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter } from 'react-router'
-import App from './App.jsx'
+import { RouterProvider } from 'react-router'
 import './index.css'
+import { router } from './router'
 
 createRoot(document.getElementById('root')).render(
-    //  BrowserRouter es un componente que nos habilita a usar las herramientas de react-router
-    <BrowserRouter>
-        <App />
-    </BrowserRouter>
+    <RouterProvider router={router} />
 )

@@ -1,0 +1,33 @@
+.contact-header {
+    display: flex;
+    flex-direction: row;
+    height: 64px;
+    background-color: white;
+    align-items: center;
+    box-shadow: 0 1px 4px #0000001f;
+    padding: 10px 16px;
+}
+
+.asdfh2 {
+    padding-left: 15px;
+    width: 100%;
+}
+
+.ContactHeaderButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ContactHeaderButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 40px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 8px;
+    background-color: transparent;
+    border: none;
+}

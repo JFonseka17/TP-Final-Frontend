@@ -8,7 +8,7 @@
 
 .messagesList {
     flex: 1;
-    overflow-y: scroll;
+    overflow: auto;
 }
 .footer {
     min-height: 52px;
@@ -19,4 +19,3 @@
     background-color: white;
     box-shadow: 0 1px 6px #0000001f;
 }
-

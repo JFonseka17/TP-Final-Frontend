@@ -39,4 +39,3 @@ const NewMessageForm = ({ addNewMessage }) => {
 }
 
 export default NewMessageForm
-

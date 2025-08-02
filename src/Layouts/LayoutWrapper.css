@@ -1,0 +1,30 @@
+.A {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.content-area {
+    width: 100%;
+}   
+
+
+/* .aa {
+    width: 3.5%;
+    background-color: #F7F5F3;
+}
+
+.ab {
+    width: 29.5%;
+    border-right: 1px solid #ddd;
+    background-color: transparent;
+}
+
+.ac {
+    width: 67%;
+    background-image: url('../public/FondoTP.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+ */

@@ -1,0 +1,21 @@
+.chat-container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-panel {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    border-right: 1px solid #e9edef;
+    overflow-y: auto;
+}
+
+.right-panel {
+    width: 70%;
+    background-image: url('../public/FondoTP.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

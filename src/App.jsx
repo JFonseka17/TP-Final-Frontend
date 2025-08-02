@@ -1,44 +1,8 @@
-import React, { useState } from "react"
-import { Route, Routes, Outlet } from 'react-router'
-import ChatScreen from './Screens/ChatScreen/ChatScreen'
-import ContactScreen from "./Screens/ContactScreen/ContactScreen"
-import SidebarScreen from "./Screens/SidebarScreen/SidebarScreen"
-import ContactSearch from "./Components/ContactSearch/ContactSearch"
+import React from 'react'
 import "./App.css"
 
-const Layout = () => {
-	return (
-		<div className="A">
-			<header className="aa">
-				<SidebarScreen/>
-			</header>
-			{/* Columna 1: Lista de contactos (SIEMPRE visible) */}
-			<div className="ab">
-				<ContactSearch/>
-				<ContactScreen />
-			</div>
-
-			{/* Columna 2: Área dinámica (aquí entra ChatScreen) */}
-			<div className="ac">
-				<Outlet /> {/* Esto se reemplazará por la ruta hija */}
-			</div>
-		</div>
-	);
-};
-
 const App = () => {
-	return (
-		<Routes>
-			{/* Ruta principal con Layout fijo */}
-			<Route path="/" element={<Layout />}>
-				{/* Ruta hija: se renderiza en el <Outlet /> del Layout */}
-				<Route
-					path="contact/:contact_id/messages"
-					element={<ChatScreen />}
-				/>
-			</Route>
-		</Routes>
-	);
-};
+  return null // Ahora el routing se maneja desde router.jsx
+}
 
-export default App;
+export default App

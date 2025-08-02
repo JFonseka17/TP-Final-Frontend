@@ -11,7 +11,7 @@ const ContactItem = ({ contact }) => {
     const lastMessage = getLastMessage(contact.messages);
 
     return (
-        <Link to={`/contact/${contact.id}/messages`} className="asd">
+        <Link to={`/chats/${contact.id}`} className="asd">
             <div className="asdf">
                 <div className="asdfg">
                     <img src={contact.avatar} alt={contact.name} width={49} />

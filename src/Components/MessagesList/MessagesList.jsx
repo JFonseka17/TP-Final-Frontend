@@ -1,5 +1,6 @@
 import React from "react"
 import Message from "../Message/Message"
+import "./MessagesList.css"
 
 const MessagesList = ({ messages, deleteMessageById }) => {
 
@@ -21,7 +22,7 @@ const lista_mensajes = messages.map(
     }
 	)
 	return (
-		<div>
+		<div className="messages-list2">
 			{lista_mensajes}
 		</div>
 	)

@@ -5,9 +5,12 @@
     cursor: pointer;
     width: auto;
     max-height: 76px;
-    margin: 0px 20px 12px 10px;
-    background-color: antiquewhite;
+    margin: 0px 0px 12px 0px;
     border-radius: 12px;
+}
+
+.asd:hover {
+    background-color: #f5f5f5;
 }
 
 .asdf {
@@ -16,13 +19,14 @@
     align-items: center;
     width: 100%;
     min-height: 76px;
+    margin-left: 10px;
 }
 
 .asdfg img {
+    display: flex;
     border-radius: 50%;
     width: 49px;
     height: 49px;
-    margin-left: 10px;
 }
 
 .asdfh {
