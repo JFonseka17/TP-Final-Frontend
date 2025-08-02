@@ -15,7 +15,7 @@
 
 .right-panel {
     width: 70%;
-    background-image: url('../public/FondoTP.jpg');
+    background-image: url('/FondoTP.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
