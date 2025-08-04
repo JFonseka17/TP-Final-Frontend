@@ -8,7 +8,7 @@ const ContactScreen = () => {
     const [contactsState, setContactsState] = useState(contacts);
     
     return (
-        <div  className="backgroundContact" >
+        <div  className="contact-screen" >
             <ContactList contacts={contactsState} />
         </div>
     );

@@ -1,9 +1,9 @@
-.footer_Content {
+.footer-content {
     display: flex;
     flex-direction: row;
 }
 
-.aaa {
+.footer-content-plus-icon {
     display: flex;
     width: 40px;
     height: 40px;
@@ -11,7 +11,7 @@
     align-content: center;
 }
 
-.bbb {
+.footer-content-emoji-icon {
     display: flex;
     width: 40px;
     height: 40px;
@@ -19,7 +19,7 @@
     align-content: center;
 }
 
-.ccc {
+.footer-content-input {
     display: flex;
     flex: 1;
     height: 40px;
@@ -30,7 +30,7 @@
     border-radius: 26px;
 }
 
-.ddd {
+.footer-content-send {
     width: 40px;
     height: 40px;
     padding: 8px;
@@ -39,7 +39,7 @@
     border-radius: 50%;
 }
 
-.enviar {
+.send {
     display: inline-flex;
     align-items: center;
     justify-content: center;

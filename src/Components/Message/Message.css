@@ -4,9 +4,9 @@
     padding: 8px 12px;
     border-radius: 7.5px;
     max-width: 75%;
-    min-width: 120px; /* Ancho mínimo para mensajes cortos */
-    word-break: break-word; /* Rompe palabras largas */
-    overflow-wrap: anywhere; /* Maneja mejor los espacios */
+    min-width: 120px;
+    word-break: break-word;
+    overflow-wrap: anywhere;
 }
 
 .message-bubble {
@@ -18,8 +18,8 @@
 .message-text {
     font-size: 14px;
     line-height: 1.4;
-    white-space: pre-wrap; /* Respeta saltos de línea y ajusta texto */
-    min-width: 0; /* Permite que el texto se ajuste */
+    white-space: pre-wrap;
+    min-width: 0;
 }
 
 .message-footer {
@@ -35,15 +35,13 @@
     margin-left: 8px;
 }
 
-/* Estilos para mensajes propios */
 .own-message {
     align-self: flex-end;
-    background-color: #d9fdd3; /* Verde claro de WhatsApp */
+    background-color: #d9fdd3;
     border-top-right-radius: 0;
     margin-left: auto;
 }
 
-/* Estilos para mensajes de otros */
 .other-message {
     align-self: flex-start;
     background-color: #ffffff;
@@ -52,8 +50,7 @@
     box-shadow: 0 1px 0.5px rgba(0, 0, 0, 0.1);
 }
 
-/* Botón de eliminar */
-.delete-btn {
+/* .delete-btn {
     position: absolute;
     right: 0;
     top: -20px;
@@ -65,4 +62,4 @@
     font-size: 12px;
     cursor: pointer;
     z-index: 10;
-}
+} */

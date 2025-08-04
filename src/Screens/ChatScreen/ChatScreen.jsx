@@ -9,14 +9,13 @@ import ContactHeader from '../../Components/ContactHeader/ContactHeader'
 const ChatScreen = () => {
 	const { contact_id } = useParams()
 
-	// Cambio clave: Inicializar con array vacío y cargar los mensajes en useEffect
 	const [messages, setMessages] = useState([])
 	const [contact, setContact] = useState(null)
 
 	useEffect(() => {
         const contactData = getContactById(contact_id)
         if (contactData) {
-            setContact(contactData) // Guarda el contacto completo
+            setContact(contactData)
             setMessages(contactData.messages || [])
         }
     }, [contact_id])
@@ -50,9 +49,9 @@ const ChatScreen = () => {
 
 
 	return (
-		<div className='chatScreen2'>
+		<div className='chat-screen'>
 			{contact && <ContactHeader contact={contact} />}
-			<div className='messagesList'>
+			<div className='messages-list-content'>
 				<MessagesList messages={messages} deleteMessageById={deleteMessageById} />
 			</div>
 			<footer className='footer'>
@@ -63,27 +62,3 @@ const ChatScreen = () => {
 }
 
 export default ChatScreen
-
-
-
-/* const deleteAllMessages = () => {
-	setMessages([])
-}
-
-{
-	messages.length > 0
-		&&
-		<button onClick={deleteAllMessages}>Borrar todos los mensajes</button>
-} */
-
-/* 		<header className='header'>
-				<div>
-				</div>
-				<div>
-				</div>
-				<div>
-					<div></div>
-					<div></div>
-					<div></div>
-				</div>
-			</header> */

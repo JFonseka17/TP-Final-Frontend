@@ -9,13 +9,13 @@
     border-right: 1px solid #ddd;
 }
 
-.sidebar_top {
+.sidebar-top {
     display: flex;
     flex-direction: column;
     margin-top: 5px;
 }
 
-.Box {
+.box {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -26,17 +26,17 @@
     padding: 8px;
 }
 
-.Box span {
+.box span {
     color: rgba(0, 0, 0, 0.6);
 }
 
-.Box img {
+.box img {
     border-radius: 50%;
     width: 28px;
     height: 28px;
 }
 
-.sidebar_bottom {
+.sidebar-bottom {
     display: flex;
     flex-direction: column;
     align-items: center;

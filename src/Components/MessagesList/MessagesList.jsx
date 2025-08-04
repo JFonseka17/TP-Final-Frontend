@@ -22,7 +22,7 @@ const lista_mensajes = messages.map(
     }
 	)
 	return (
-		<div className="messages-list2">
+		<div className="messages-list">
 			{lista_mensajes}
 		</div>
 	)

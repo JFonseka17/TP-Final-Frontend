@@ -8,18 +8,18 @@
     padding: 10px 16px;
 }
 
-.asdfh2 {
+.contact-item-header-name {
     padding-left: 15px;
     width: 100%;
 }
 
-.ContactHeaderButtons {
+.contact-header-buttons {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.ContactHeaderButton {
+.contact-header-button {
     display: inline-flex;
     align-items: center;
     justify-content: center;

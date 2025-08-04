@@ -11,15 +11,15 @@ const ContactItem = ({ contact }) => {
     const lastMessage = getLastMessage(contact.messages);
 
     return (
-        <Link to={`/chats/${contact.id}`} className="asd">
-            <div className="asdf">
-                <div className="asdfg">
+        <Link to={`/chats/${contact.id}`} className="contact-item-container">
+            <div className="contact-item-content">
+                <div className="contact-item-avatar">
                     <img src={contact.avatar} alt={contact.name} width={49} />
                 </div>
-                <div className="asdfh">
-                    <div className="asdfh1">
-                        <span className="asdfh11">{contact.name}</span>
-                        <span className="asdfh12">{contact.lastConnection}</span>
+                <div className="contact-item-target">
+                    <div className="contact-item-info">
+                        <span className="contact-item-name">{contact.name}</span>
+                        <span className="contact-item-last">{contact.lastConnection}</span>
                     </div>
                     <div>
                         <span>{lastMessage

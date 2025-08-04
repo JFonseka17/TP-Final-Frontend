@@ -5,9 +5,9 @@ import "./LayoutWrapper.css"
 
 function LayoutWrapper() {
     return (
-        <div className="A">
+        <div className="layout-wrapper">
             <SidebarScreen />
-            <div className="content-area">
+            <div className="layout-content">
                 <Outlet /> {/* Aquí se renderizará ChatScreen/EstadosScreen/CanalesScreen */}
             </div>
         </div>
@@ -15,16 +15,3 @@ function LayoutWrapper() {
 }
 
 export default LayoutWrapper
-
-{/* <div className="A">
-            <header className="aa">
-                <SidebarScreen />
-            </header>
-            <div className="ab">
-                <ContactSearch />
-                <ContactScreen />
-            </div>
-            <div className="ac">
-                <Outlet />
-            </div>
-        </div> */}
